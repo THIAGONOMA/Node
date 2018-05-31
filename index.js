@@ -1,3 +1,3 @@
 var serialGenerator = require('./serialGenerator.js');
-var max=1000;
+var config = require('./config.js');
 console.log(serialGenerator.generate());

@@ -1,6 +1,7 @@
+var config = require('./config.js');
 exports.generate = function()
 {
 
-return Math.floor(Math.random() * max);
+return Math.floor(Math.random() * config.max);
 
 };
